@@ -65,11 +65,11 @@ void stopMotorsSafe() {
 }
 
 // ---------------- Control tuning ----------------
-float ROLL_OFFSET_DEG = 0.0f;   // set so roll is ~0 when upright
+float ROLL_OFFSET_DEG = -5.7f;   // set so roll is ~0 when upright
 
-float Kp = 20.0f;
-float Ki = 0.0f;
-float Kd = 0.8f;
+float Kp = 50.0f;
+float Ki = 10.0f;
+float Kd = 2.0f;
 
 int MAX_CMD_US = 250;
 
